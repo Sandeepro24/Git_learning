@@ -10,3 +10,74 @@
 
 </body>
 </html>
+
+//git learing commands
+Initialized empty Git repository in /home/j-san/Desktop/git_learning/.git/
+j-san@howru:~/Desktop/git_learning$ git config --global user.name"Sandeepro24"
+j-san@howru:~/Desktop/git_learning$ git config --global user.email"jasawatsandeep31@gmail.com"
+j-san@howru:~/Desktop/git_learning$ git config --global user.name
+j-san@howru:~/Desktop/git_learning$ git config --global user.email
+j-san@howru:~/Desktop/git_learning$ git config --global user.name"Sandeepro24"
+j-san@howru:~/Desktop/git_learning$ git config --global user.name
+j-san@howru:~/Desktop/git_learning$ git config --global edit
+error: key does not contain a section: edit
+j-san@howru:~/Desktop/git_learning$ git config --global --edit
+j-san@howru:~/Desktop/git_learning$ git config --global user.name
+sandeep jasawat
+j-san@howru:~/Desktop/git_learning$ git config --global --edit
+j-san@howru:~/Desktop/git_learning$ git config --global user.name
+Sandeepro24
+j-san@howru:~/Desktop/git_learning$ git config --global user.email
+jasawatsandeep31@gmail.com
+j-san@howru:~/Desktop/git_learning$ gedit index.html
+^C
+j-san@howru:~/Desktop/git_learning$ gedit index.html &
+[1] 4314
+j-san@howru:~/Desktop/git_learning$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+j-san@howru:~/Desktop/git_learning$ git add index.html
+j-san@howru:~/Desktop/git_learning$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   index.html
+
+j-san@howru:~/Desktop/git_learning$ git commit -m "This is initial commit"
+[master (root-commit) 5805674] This is initial commit
+ 1 file changed, 12 insertions(+)
+ create mode 100644 index.html
+j-san@howru:~/Desktop/git_learning$ git status
+On branch master
+nothing to commit, working tree clean
+j-san@howru:~/Desktop/git_learning$ git lock
+git: 'lock' is not a git command. See 'git --help'.
+
+The most similar command is
+	fsck
+j-san@howru:~/Desktop/git_learning$ git log
+commit 5805674538b569022017ac16aec0ed48f26f9e23 (HEAD -> master)
+Author: Sandeepro24 <jasawatsandeep31@gmail.com>
+Date:   Thu Mar 9 10:30:17 2023 +0530
+
+    This is initial commit
+j-san@howru:~/Desktop/git_learning$ git log --oneline
+5805674 (HEAD -> master) This is initial commit
+j-san@howru:~/Desktop/git_learning$ git log --twoline
+fatal: unrecognized argument: --twoline
+j-san@howru:~/Desktop/git_learning$ git log --one line
+fatal: ambiguous argument 'line': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+j-san@howru:~/Desktop/git_learning$ 
+
